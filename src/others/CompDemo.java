@@ -1,6 +1,6 @@
 package others;
 /**
- * @author  King老师
+ * @author
  * 方法内联
  * -XX:+PrintCompilation   //在控制台打印编译过程信息
  * -XX:+UnlockDiagnosticVMOptions //解锁对JVM进行诊断的选项参数。默认是关闭的，开启后支持一些特定参数对JVM进行诊断
@@ -18,7 +18,7 @@ public class CompDemo {
     private int add(int x1, int x2, int x3, int x4) {
         return x1 + x2+ x3 + x4;
     }
-
+    //测试01
     public static void main(String[] args) {
         CompDemo compDemo = new CompDemo();
         //方法调用计数器的默认阈值在C1模式下是1500次，在C2模式在是10000次，我们循环遍历超过需要阈值
